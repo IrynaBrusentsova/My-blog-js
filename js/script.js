@@ -24,6 +24,15 @@ function titleClickHandler(event){
   for(let activeArticle of activeArticles){
     activeArticle.classList.remove('active');
   }
+  // ===========
+  // const actArticle = document.querySelectorAll('.post');
+  // console.log(actArticle);
+  // actArticle.addEventListener('click', function(){
+  //   this.classList.toggle('active');
+  // })
+
+  // ==================
+
 
   /*[DONE] get 'href' attribute from the clicked link */
   const articleSelector = clickedElement.getAttribute('href');
